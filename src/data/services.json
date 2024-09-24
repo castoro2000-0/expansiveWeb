@@ -1,0 +1,21 @@
+[
+    {
+        "nome_servizio":"Applicazione Statica",
+        "prezzo":"300€ - ...",
+        "descrizione":"Sito web statico adatto a portfolio basici o a siti vetrina; ma non limitato a questo",
+        "servizio1":"Utilizzo di tecnologie di base: HTML CSS JavaScript React.JS",
+        "servizio2":"Sito a singola pagina, consultare la prossima sezione per servizi aggiuntivi",
+        "servizio3":"Assistenza del sito per il primo mese",
+        "servizio4":"Design a seconda dei nostri template a propia scelta"
+    },
+
+    {
+        "nome_servizio":"Applicazione Dinamica",
+        "prezzo":"400€ - ...",
+        "descrizione":"Sito web dinamico adatto a blog, portfolio avanzati o anche e-commerce; ma non limitato a questo",
+        "servizio1":"Utilizzo di tecnologie back-end come PHP e SQL",
+        "servizio2":"Poddibilità di avere fino a 5 pagine",
+        "servizio3":"Assistenza del sito per il primo mese",
+        "servizio4":"Design a seconda dei nostri template a propia scelta"
+    }
+]

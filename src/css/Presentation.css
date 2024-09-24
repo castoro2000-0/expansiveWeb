@@ -1,0 +1,59 @@
+.Presentation {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-wrapper {
+    padding-top: 2%;
+    display: flex;
+    align-items: center;
+}
+
+#contact-p {
+    margin: 0 5% 0 15%;
+    font-size: 2vw;
+}
+
+.contact-wrapper div a {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-wrapper div {
+    border-left: 2px solid black;
+    padding-left: 5%;
+}
+
+.contact-wrapper div img {
+    width: 2vw;
+    margin-right: 5%;
+}
+
+.description {
+    width: 100%;
+    height: auto;
+    margin-top: 12%;
+    margin-left: 12%;
+}
+
+.description h2 {
+    width: 55vw;
+    color: var(--descriptionh2);
+    font-size: 3vw;
+}
+
+.description p {
+    width: 40vw;
+}
+
+.description span {
+    font-weight: bold;
+}
+
+.corporate-memphis {
+    height: 70vh;
+    float: right;
+    margin-right: 15%;
+}
