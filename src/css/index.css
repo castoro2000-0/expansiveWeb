@@ -2,7 +2,7 @@
 
 :root {
     --body: white;
-    --header: white;
+    --header: rgb(4, 4, 4)
 }
 
 body {
