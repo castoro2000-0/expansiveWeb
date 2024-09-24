@@ -7,7 +7,7 @@ function Home(){
 
             <div className="img-background">
                 <div className="opacity-background"></div>
-                <h1><span id="agency-name" >expansiveWeb:</span> <br/> Agenzia specializzata in sviluppazione<br/> siti <span>WEB</span></h1>
+                <h1><span id="agency-name" >expansiveWeb</span> <br/> Esperti nello sviluppo di <span>SOFTWARE</span></h1>
             </div>
         </div>
     );

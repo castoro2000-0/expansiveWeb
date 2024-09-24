@@ -35,7 +35,7 @@ function Services(){
                 <ul>
                     <li>Design personalizzato da noi: +50€</li>
                     <li>Sito multipagina: +25€/pagina - sito statico <br/> +75€/pagina - sito dinamico</li>
-                    <li>Aggiornamento e Assistenza: <br/>200€/mese</li>
+                    <li>Aggiornamento e Assistenza: <br/>+200€/mese</li>
                     <li>Hosting + Dominio + Seo Growing: +150€</li>
                     <li>Contact form per clienti: +50€</li>
                 </ul>
@@ -62,7 +62,7 @@ function Service(props){
                 <li>{props.servizio4}</li>
             </ul>
             <div className="preventivo">
-                <a href="mailto: ">
+                <a href="mailto:expansive.web.agency@gmail.com">
                     Richiedi un preventivo
                 </a>
             </div>

@@ -4,7 +4,7 @@ function Header(){
     return(
         <header>
             <ul>
-                <li>expansiveWeb</li>
+                <li id="nome_gruppo" ><a href="#expansiveWeb">expansiveWeb</a></li>
                 <li><a href="#home-id"><p>Home</p></a></li>
                 <li><a href="#servizi-id"><p>Servizi</p></a></li>
                 <li><a href="#Footer"><p>Contattaci</p></a></li>

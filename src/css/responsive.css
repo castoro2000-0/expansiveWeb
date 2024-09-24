@@ -18,7 +18,7 @@
         height: 10vh;
     }
 
-    header li, header p {
+    header li, header p, #nome_gruppo {
         font-size: 4vw;
     }
 
@@ -78,7 +78,7 @@
     }
 
     .service {
-        height: 180vh;
+        height: 225vh;
     }
 
     .service-wrapper {
@@ -167,7 +167,7 @@
         padding: 0;
     }
 
-    header li, header p {
+    header li, header p, #nome_gruppo {
         font-size: 4vw;
     }
 
@@ -227,7 +227,7 @@
     }
 
     .service {
-        height: 140vh;
+        height: 150vh;
     }
 
     .service-wrapper {
@@ -259,6 +259,10 @@
     .added-tax {
         width: 80vw;
         height: 30vh;
+    }
+
+    .added-tax p {
+        font-size: 4vw;
     }
 
     .added-tax ul {

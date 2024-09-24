@@ -21,7 +21,7 @@ html {
 }
 
 h1 {
-    font-size: calc(1rem + 4.5vw);
+    font-size: calc(1rem + 2.5vw);
     margin: 0;
     color: white;
 }
