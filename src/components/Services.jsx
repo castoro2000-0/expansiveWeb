@@ -61,11 +61,6 @@ function Service(props){
                 <li>{props.servizio3}</li>
                 <li>{props.servizio4}</li>
             </ul>
-            <div className="preventivo">
-                <a href="mailto:expansive.web.agency@gmail.com">
-                    Richiedi un preventivo
-                </a>
-            </div>
         </div>
     );
 }

@@ -39,14 +39,6 @@
     margin-left: 10%;
 }
 
-.preventivo {
-    border-bottom: 0.4vh solid;
-    float: left;
-    font-weight: bold;
-    letter-spacing: 0.08vw;
-    margin-top: 5%;
-}
-
 .added-tax {
     width: 35vw;
     float: right;
