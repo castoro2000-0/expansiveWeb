@@ -7,7 +7,7 @@
 .service {
     width: 100%;
     height: 100vh;
-    background: linear-gradient(270deg, #020012 0%, #220C60 100%);
+    background: linear-gradient(270deg, #1c0b57, #0d5151);
     color: #fff;
 }
 
@@ -37,22 +37,4 @@
 .service-grid {
     width: 80%;
     margin-left: 10%;
-}
-
-.added-tax {
-    width: 35vw;
-    float: right;
-    margin-right: 5%;
-    margin-top: 6%;
-}
-
-.added-tax ul {
-    display: grid;
-    grid-template-columns: 14vw 14vw;
-    grid-template-rows: 15vh 15vh 15vh;
-    gap: 2vw 2vw;
-}
-
-.corporate-memphis2 {
-    width: 55vw;
 }

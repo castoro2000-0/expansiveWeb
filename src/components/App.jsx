@@ -3,6 +3,7 @@ import Script from "./Script"
 import Home from "./Home"
 import Presentation from "./Presentation"
 import Services from "./Services"
+import Preventivo from "./Preventivo"
 import Footer from "./Footer"
 import "../css/responsive.css"
 
@@ -15,6 +16,7 @@ function App() {
 			<Home></Home>
 			<Presentation></Presentation>
 			<Services></Services>
+			<Preventivo></Preventivo>
 			<Footer></Footer>
 		</>
   	)

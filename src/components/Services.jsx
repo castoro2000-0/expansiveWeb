@@ -27,19 +27,6 @@ function Services(){
                     ))}
                 </div>
             </div>
-
-            <img src="images/memphis/corporate-memphis2.jpg" alt="corporate-memphis2" className="corporate-memphis2" />
-
-            <div className="added-tax" id="#added-tax-id">  
-                <p>Tasse aggiuntive:</p>
-                <ul>
-                    <li>Design personalizzato da noi: +50€</li>
-                    <li>Sito multipagina: +25€/pagina - sito statico <br/> +75€/pagina - sito dinamico</li>
-                    <li>Aggiornamento e Assistenza: <br/>+200€/mese</li>
-                    <li>Hosting + Dominio + Seo Growing: +150€</li>
-                    <li>Contact form per clienti: +50€</li>
-                </ul>
-            </div>
         </div>
     );
 }

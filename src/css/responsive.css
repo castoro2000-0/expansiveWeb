@@ -98,29 +98,12 @@
         font-size: 4vw;
     }
 
-    .corporate-memphis2 {
-        width: 110vw;
+    .element p, #prezzo-finale {
+        font-size: 3.5vw;
     }
 
-    .added-tax {
-        width: 80vw;
-        height: fit-content;
-    }
-
-    .added-tax p {
-        font-size: 4vw;
-    }
-
-    .added-tax ul {
-        height: 100%;
-        grid-template-columns: 45% 45%;
-        grid-template-rows: 33% 33% 33%;
-        gap: 8vw 8vw;
-    }
-
-    .added-tax ul li {
-        max-width: 40vw;
-        font-size: 3.5vw
+    .site-type {
+        width: 100%;
     }
 
     #Footer {
@@ -245,30 +228,12 @@
         font-size: 4vw;
     }
 
-    .corporate-memphis2 {
-        width: 110vw;
+    .element p, #prezzo-finale {
+        font-size: 3.5vw;
     }
 
-    .added-tax {
-        height: 75vh;
-        margin: 0;
-        width: 90vw;
-    }
-
-    .added-tax p {
-        font-size: 7vw;
-    }
-
-    .added-tax ul {
-        height: 100%;
-        grid-template-columns: 45% 45%;
-        grid-template-rows: 33% 33% 33%;
-        gap: 8vw 8vw;
-    }
-
-    .added-tax ul li {
-        max-width: 40vw;
-        font-size: 3.5vw
+    .site-type {
+        width: 100%;
     }
 
     #Footer {
