@@ -11,14 +11,14 @@ function Preventivo(){
             <h2>Costruisci il tuo Preventivo!</h2>
 
             <div className="site-type">
-                <Element service="Sito Statico - 300€" costo={300} prezzo={prezzo} setPrezzo={setPrezzo} />
-                <Element service="Sito Dinamico - 500€" costo={500} prezzo={prezzo} setPrezzo={setPrezzo} />
+                <Element service="Sito Statico - 300€" costo={300} prezzo={prezzo} setPrezzo={setPrezzo} label="static" />
+                <Element service="Sito Dinamico - 500€" costo={500} prezzo={prezzo} setPrezzo={setPrezzo} label="dynamic" />
             </div>
 
             <div className="col">
-                <Element service="Contact Form - 50€" costo={50} prezzo={prezzo} setPrezzo={setPrezzo} />
-                <Element service="Hosting + Dominio + Seo Growing - 150€" costo={150} prezzo={prezzo} setPrezzo={setPrezzo} />
-                <Element service="Design Personalizzato - 50€" costo={50} prezzo={prezzo} setPrezzo={setPrezzo} />
+                <Element service="Contact Form - 50€" costo={50} prezzo={prezzo} setPrezzo={setPrezzo} label="contact" />
+                <Element service="Hosting + Dominio + Seo Growing - 150€" costo={150} prezzo={prezzo} setPrezzo={setPrezzo} label="Hosting" />
+                <Element service="Design Personalizzato - 50€" costo={50} prezzo={prezzo} setPrezzo={setPrezzo} label="Design" />
 
                 <Element 
                     service="Aggiornamento e Assistenza - 150€/mese" 
@@ -27,7 +27,8 @@ function Preventivo(){
                     prezzoMensile={prezzoMensile}
                     setPrezzo={setPrezzo}
                     setPrezzoMensile={setPrezzoMensile}
-                    èMensile={true} 
+                    èMensile={true}
+                    label="Update"
                 />
             </div>
 
@@ -36,7 +37,7 @@ function Preventivo(){
     );
 }
 
-function Element({service, costo, prezzo, setPrezzo, èMensile = false, setPrezzoMensile = null, prezzoMensile = null}){
+function Element({service, costo, prezzo, setPrezzo, èMensile = false, setPrezzoMensile = null, prezzoMensile = null, label}){
 
     const [cont, setCont] = useState(0);
 
@@ -62,8 +63,10 @@ function Element({service, costo, prezzo, setPrezzo, èMensile = false, setPrezz
 
     return(
         <div className="element">
-            <input type="checkbox" onClick={changePrice} />
-            <p>{service}</p>
+            <label htmlFor={label}>
+                <input type="checkbox" onClick={changePrice} id={label} />
+                {service}
+            </label>
         </div>
     );
 }
