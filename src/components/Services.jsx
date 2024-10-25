@@ -1,3 +1,5 @@
+import React from "react";
+import { Link } from "react-router-dom";
 import "../css/Services.css";
 import services_json from "../data/services.json";
 
@@ -7,26 +9,24 @@ function Services(){
 
     return(
         <div className="Services" id="servizi-id">
-            <div className="service">
-                <div className="service-title">
-                    <hr/><h2>SERVIZI</h2><hr/>
-                </div>
-
-                <div className="service-wrapper">
-                    {services.map((element, index) => (
-                        <Service
-                        key={index}
-                        nome_servizio={element.nome_servizio}
-                        prezzo={element.prezzo}
-                        descrizione={element.descrizione}
-                        servizio1={element.servizio1}
-                        servizio2={element.servizio2}
-                        servizio3={element.servizio3}
-                        servizio4={element.servizio4}
-                        ></Service>
-                    ))}
-                </div>
+            <div className="service-title">
+                <hr/><h2>SERVIZI</h2><hr/>
             </div>
+            <div className="service-wrapper">
+                {services.map((element, index) => (
+                    <Service
+                    key={index}
+                    nome_servizio={element.nome_servizio}
+                    prezzo={element.prezzo}
+                    descrizione={element.descrizione}
+                    servizio1={element.servizio1}
+                    servizio2={element.servizio2}
+                    servizio3={element.servizio3}
+                    servizio4={element.servizio4}
+                    ></Service>
+                ))}
+            </div>
+            <Link to="/preventivo" id="link-preventivo" >Costruisci il tuo preventivo!</Link>
         </div>
     );
 }

@@ -20,9 +20,9 @@ function Presentation(){
                 
                 <h2>Chi siamo e <br/> di cosa ci occupiamo?</h2> <br/>
                 <p>expansiveWeb è un gruppo che sviluppa software per trasformare idee in realtà.
-                    La <span>soddisfazione del cliente</span> è la nostra priorità, questo è possibile grazie a un team di 
-                    giovani appassionati dell'<span>informatica</span>. <br/> <br />
-                    I nostri prodotti sono <span> responsivi, scalabili </span> ma soprattuto professionali;
+                    La <strong>soddisfazione del cliente</strong> è la nostra priorità, questo è possibile grazie a un team di 
+                    giovani appassionati dell'<strong>informatica</strong>. <br/> <br />
+                    I nostri prodotti sono <strong> responsivi, scalabili </strong> ma soprattuto professionali;
                     maggiori informazioni sui servizi sono disponibili in basso.
                 </p>
             </div>

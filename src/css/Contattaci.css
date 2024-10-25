@@ -1,0 +1,47 @@
+#contactForm {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contactForm form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#username, #email, #messaggio {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 35vw;
+    padding: 0;
+    resize: none;
+    border: 0;
+    border-bottom: 2px solid gray;
+}
+
+#username, #email {
+    height: 5vh;
+}
+
+#messaggio {
+    height: 15vh;
+}
+
+#submit {
+    width: 15vw;
+    height: 7vh;
+    border: 0;
+    border-radius: 0.5vw;
+    cursor: pointer;
+}
+
+#contactID {
+    margin-top: -50%;
+    position: absolute;
+    z-index: -10;
+}

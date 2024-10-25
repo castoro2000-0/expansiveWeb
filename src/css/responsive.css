@@ -5,6 +5,7 @@
 
 /* X-Small devices (portrait phones, less than 576px) */
 @media only screen and (max-width: 600px) {
+
     header {
         height: 5vh;
     }
@@ -67,13 +68,10 @@
     }
 
     .Services {
+        height: fit-content;
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
-
-    .service {
-        height: 175vh;
     }
 
     .service-wrapper {
@@ -98,18 +96,44 @@
         font-size: 4vw;
     }
 
+    #link-preventivo {
+        font-size: 4vw;
+    }
+
     #prezzo-finale {
         font-size: 3.5vw;
     }
 
-    .site-type {
+    #main-preventivo .site-type {
         width: 100%;
+    }
+
+    #main-preventivo #link-home {
+        width: 45vw;
+    }
+
+    #contactID {
+        margin-top: -200%;
+    }
+
+    #contactForm h4 {
+        font-size: 7vw;
+    }
+
+    #username, #email, #messaggio {
+        width: 60vw;
+    }
+
+    #submit {
+        width: 45vw;
     }
 
     #Footer {
         height: 50vh;
         padding: 5% 0 0 5%;
         margin-top: 15%;
+        display: flex;
+        flex-direction: column;
     }
 
     #Footer div {
@@ -197,13 +221,10 @@
     }
 
     .Services {
+        height: fit-content;
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
-
-    .service {
-        height: 225vh;
     }
 
     .service-wrapper {
@@ -228,17 +249,51 @@
         font-size: 4vw;
     }
 
+    #link-preventivo {
+        font-size: 4vw;
+    }
+
     #prezzo-finale {
         font-size: 3.5vw;
+    }
+
+    #main-preventivo .site-type {
+        width: 100%;
+    }
+
+    #main-preventivo #link-home {
+        width: 45vw;
+    }
+
+    #contactID {
+        margin-top: -200%;
+    }
+
+    #contactForm h4 {
+        font-size: 7vw;
+    }
+
+    #username, #email, #messaggio {
+        width: 60vw;
+    }
+
+    #submit {
+        width: 45vw;
+        font-size: 4vw;
     }
 
     .site-type {
         width: 100%;
     }
 
+    label {
+        font-size: 3vw;
+    }
+
     #Footer {
-        height: 50vh;
         padding: 5% 0 0 5%;
+        display: flex;
+        flex-direction: column;
     }
 
     #Footer div {
